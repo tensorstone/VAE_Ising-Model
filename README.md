@@ -37,6 +37,14 @@ Obviously, VAE itself performs well in classification tasks, but performs poorly
 ### Math perspective
 ![image](https://github.com/tensorstone/VAE_Ising-Model/blob/master/NetVisualize.png)
 
-Here the KL-Divergence(KL-term for short) constrain the mapping process from the initial distribution to a standard Normal Distribution
+Here the KL-Divergence(KL-term for short) constrain the mapping process of each T from the initial distribution to a standard Normal Distribution, and the Binary_ term means binary_crossentropy. 
+
+Different configurations in each T map to different mu and sigma, then sample a new point from this normal distribution. The first figure in this part shows that the hidden variable is approximately an uniform distribution. The reason is our Ts are continous, so that the configurations of near Ts are hard to be separated.(Many Gauss distributions consist of a uniform distribution)
+
+We sample hidden variables near z_mean. To reproduce the initial configuration at high accuracy, we must separate different T's z_mean_Ts. Here the Binary_ loss plays its role. 
+
+In this framework, the loss function lead to a result of the separation of the experimental samples at various temperatures. But if the aim is reproduce a fake but true figure, we shall use other loss functions.
+
+
 
 
