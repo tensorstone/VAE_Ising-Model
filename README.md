@@ -35,7 +35,7 @@ When I used the sign function to duplecate a configuration at a certain temperat
 Obviously, VAE itself performs well in classification tasks, but performs poorly in replication tasks.
 
 ### Math perspective
+![image](https://github.com/tensorstone/VAE_Ising-Model/blob/master/NetVisualize.png)
 
-
-
+Here the KL-Divergence(KL-term for short) constrain the mapping process from the initial distribution to a standard Normal Distribution
 
