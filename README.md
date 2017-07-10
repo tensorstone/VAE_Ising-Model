@@ -39,3 +39,4 @@ Obviously, VAE itself performs well in classification tasks, but performs poorly
 
 Here the KL-Divergence(KL-term for short) constrain the mapping process from the initial distribution to a standard Normal Distribution
 
+
