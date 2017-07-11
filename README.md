@@ -81,7 +81,7 @@ which works as a penalty term, and restrict the value of each spin to 0 or 1.
 
 <pre><code>Loss = Loss_M + Loss_constrain</code></pre>
 
-[What's wrong?]
+***[What's wrong?]***
 
 One more experiment is about using the M itself to generate configurations. But failed even with transfer learning technics. It appears to converge to stable local minima easily.
 
