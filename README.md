@@ -53,8 +53,8 @@ In AEs, the optimization objective is to minimize the cross entropy between the 
 
 In VAEs, the optimization objective is to minimize the corss entropy between the inputs and the configuration generated from a Gaussian re-sample process in the hidden layer. So, a certain configuration is mapped to an area with Gaussian probability density. Such configuration may be re-sampled to each of those points, and vise versa. It's because such configuration may come from any magnetic moment those points represent. This leads to an expansion in the hidden layer-magnetic moment graph.
 
-![image](https://github.com/tensorstone/VAE_Ising-Model/blob/master/ae_ising.png)
-![image](https://github.com/tensorstone/VAE_Ising-Model/blob/master/vae_ising_1.png)
+![image](https://github.com/tensorstone/VAE_Ising-Model/blob/master/ae_ising.png?imageView/2/w/619/q/90)
+![image{60*60}](https://github.com/tensorstone/VAE_Ising-Model/blob/master/vae_ising_1.png)
 
 If we can sample from a Gaussian distribution with great variance and reproduce the initial configuration, we may draw a conclusion that the configuration within this Gaussian should be alike. Sothat the variance here represents the extent of the magnetic moment near this temperature. We may find the critical temperature clearly from this figure:
 
