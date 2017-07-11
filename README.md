@@ -48,4 +48,8 @@ In this framework, the loss function lead to a result of the separation of the e
 Week 2: 10th-16th,July
 ----
 ### 5. More from mathematical perspective 
+In AEs, the optimization objective is to minimize the crossentropy between the inputs and the outputs. A certain configuration is mapped to a certain point in the hidden layer, which turns out to be the magnetic moment.
+
+In VAEs, the optimization objective is to minimize the corssentropy between a resampled 
+
 
