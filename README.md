@@ -69,25 +69,17 @@ So, if we set the target to precisely produce a picture near a certain temperatu
 
 Now our aim changes from classification to reproduction, we may use our knowledge in physics to improve the precision.So first, I chose to use a new loss function of
 
-<pre><code>
-Loss_M = M_input - M_output
-</code></pre>
+<pre><code>Loss_M = M_input - M_output</code></pre>
 
  (To make this process seem more intelligent, we can use hidden variabels instead of M. But actually it's just a linear transformation, as is shown above.)
 
 I also add another loss to the loss function:
 
-<pre><code>
-Loss_constrain = -Sum((Output - 0.5)^2)
-</code></pre>
-
+<pre><code>Loss_constrain = -Sum((Output - 0.5)^2)</code></pre>
 
 which works as a penalty term, and restrict the value of each spin to 0 or 1.
 
-
-<pre><code>
-Loss = Loss_M + Loss_constrain
-</code></pre>
+<pre><code>Loss = Loss_M + Loss_constrain</code></pre>
 
 [What's wrong?]
 
