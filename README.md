@@ -90,3 +90,4 @@ One more experiment is about using the M itself to generate configurations. But 
 ### 7. Scale expansion
 Add some output units for scale expansion. But the problem now is mode collapse. Maybe I can try GAN to solve such problem
 
+see https://github.com/tensorstone/VAE_Ising-Model/blob/master/Week%202.pdf
