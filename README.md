@@ -91,3 +91,16 @@ One more experiment is about using the M itself to generate configurations. But 
 Add some output units for scale expansion. But the problem now is mode collapse. Maybe I can try GAN to solve such problem
 
 see https://github.com/tensorstone/VAE_Ising-Model/blob/master/Week%202.pdf
+
+### 8. Other results and problems
+Problems now come from the generator.
+
+Simple generator may lead to totally random configurations
+
+Complex ones will lead to mode collapse (even 2 layers)
+
+But luckily found a standard for measuring results, inspired by Ce Wang.
+
+Correlationg function.
+
+I think this can also be used as a standard for GANs.
