@@ -93,6 +93,8 @@ Add some output units for scale expansion. But the problem now is mode collapse.
 see https://github.com/tensorstone/VAE_Ising-Model/blob/master/Week%202.pdf
 
 ### 8. Other results and problems
+Other results are saved in week2.pdf
+
 Problems now come from the generator.
 
 Simple generator may lead to totally random configurations
